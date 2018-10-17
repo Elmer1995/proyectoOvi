@@ -1,0 +1,37 @@
+html {
+  font-size: 15px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.banner {
+  width: auto; }
+
+.bg-light {
+  background: rgba(42, 106, 230, 0.52) !important;
+  color: #fff;
+  width: 100%; }
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: white; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white; }
+
+.intro {
+  width: 400px;
+  vertical-align: middle; }
+
+.introduccion {
+  margin-top: 70px; }
+
+.objetivos {
+  clear: both; }
+
+footer {
+  background: #000;
+  text-align: center;
+  color: #fff; }
+
+/*# sourceMappingURL=estilos.css.map */
