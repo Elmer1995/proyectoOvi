@@ -27,10 +27,20 @@ html{
 }
 
 //Estilos Inicio
-
 .intro{
     width: 400px;
     vertical-align: middle;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.intro:hover{
+    width: 400px;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 10px;
+    transition: 0.1s all;
 }
 
 .introduccion{
@@ -41,7 +51,13 @@ html{
     clear: both;
 }
 
+h3{
+    text-align: center;
+}
 
+p>article{
+    text-align: justify;
+}
 //Estilos Personalizados Footer
 
 footer{
