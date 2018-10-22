@@ -81,4 +81,15 @@ i {
 .Redes-sociales, .Titulo-Footer, .Contador-Visitas {
   margin: auto; }
 
+.fa-facebook-square:before {
+  content: "\f082";
+  color: #fff; }
+
+.fa-twitter-square:before {
+  content: "\f081";
+  color: #fff; }
+
+.Titulo-Footer {
+  font-weight: bold; }
+
 /*# sourceMappingURL=estilos.css.map */
