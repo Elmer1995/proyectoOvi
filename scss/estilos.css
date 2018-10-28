@@ -30,7 +30,9 @@ html {
   vertical-align: middle;
   margin-right: 10px;
   margin-bottom: 10px;
-  box-shadow: 3px 3px 10px;
+  -webkit-box-shadow: 3px 3px 10px;
+          box-shadow: 3px 3px 10px;
+  -webkit-transition: 0.1s all;
   transition: 0.1s all; }
 
 .introduccion {
@@ -45,9 +47,49 @@ h3 {
 p > article {
   text-align: justify; }
 
+.img-lecturas {
+  display: block;
+  margin: 15px auto;
+  width: 400px;
+  vertical-align: middle; }
+
+.img-lecturas:hover {
+  display: block;
+  margin: 15px auto;
+  width: 400px;
+  vertical-align: middle;
+  -webkit-box-shadow: 3px 3px 10px;
+          box-shadow: 3px 3px 10px;
+  -webkit-transition: 0.1s all;
+  transition: 0.1s all; }
+
+h3, spam {
+  font-weight: bold; }
+
 footer {
   background: #000;
-  text-align: center;
+  color: #fff;
+  height: 130px; }
+
+i {
+  font-size: 2rem; }
+
+.row {
+  padding: 15px;
+  margin: auto; }
+
+.Redes-sociales, .Titulo-Footer, .Contador-Visitas {
+  margin: auto; }
+
+.fa-facebook-square:before {
+  content: "\f082";
   color: #fff; }
+
+.fa-twitter-square:before {
+  content: "\f081";
+  color: #fff; }
+
+.Titulo-Footer {
+  font-weight: bold; }
 
 /*# sourceMappingURL=estilos.css.map */

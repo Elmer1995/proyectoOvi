@@ -8,9 +8,7 @@ html{
 }
 
 //Estilos Menu
-.banner{
-    width: auto;
-}
+
 
 .bg-light {
     background: rgba(42, 106, 230, 0.52) !important;
@@ -81,6 +79,20 @@ h3, spam{
     font-weight: bold;
 }
 
+//Estilos card
+
+.card{
+    margin-bottom: 20px;
+}
+
+
+//Estilos Lectura 4
+
+.img-lect4{
+    margin-top:15px;
+}
+
+
 //Estilos Personalizados Footer
 
 footer{
@@ -88,6 +100,13 @@ footer{
     color: #fff;
     height: 130px;
 }
+
+
+.footer-lect4{
+    clear: both;
+}
+
+
 i{
     font-size:2rem;
 }
@@ -112,4 +131,13 @@ i{
 
 .Titulo-Footer{
     font-weight: bold;
+}
+
+
+    
+@media (min-width: 720px){
+    
+    .banner{
+    width:1349px;
+}
 }
